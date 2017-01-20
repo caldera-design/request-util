@@ -1,10 +1,10 @@
 Caldera Request Util
 ---------------
-Caldera's request util is a simple wrapper of 'isomorphic-fetch' that automatically serializes query parameters (with `querystring`) and automatically JSON stringifies the body. It returns a `bluebird` Promise.
+Caldera's request util is a simple wrapper of `isomorphic-fetch` that automatically serializes query parameters (with `querystring`) and automatically JSON stringifies the body. It returns a `bluebird` Promise.
 
 Dependencies:
 ============
-- [Node](http://nodejs.org/). We always run on the latest version, which is v7.4.0 at the time of this writing, although you will likely have no issues earlier versions.
+- Since Request util uses `isomorphic-fetch`, it will work just as well in [Node](http://nodejs.org/) as it will in the browser.
 
 Installation
 ============
